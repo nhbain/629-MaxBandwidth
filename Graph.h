@@ -53,7 +53,6 @@ class Graph{
 public:
 	vector< vector<edge> >AdjList;
 	vector<kedge> EdgeList;
-	int E; //number of edges
 
 	Graph();
 	void Generate(int degree);

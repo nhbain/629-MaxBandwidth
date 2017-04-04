@@ -22,7 +22,6 @@ void Graph::Generate(int degree){
 	unsigned int w;
 	kedge knode;
 	edge node;
-	E = 0;
 
 	srand(time(NULL)); //randomize seed
 
@@ -45,9 +44,6 @@ void Graph::Generate(int degree){
 		//store edge for i
 		node.destination = i + 1;
 		AdjList[i].push_back(node);
-
-		//maintain edge count
-		E++;
 	}
 
 	//Form necessary amount of edges between nodes
@@ -77,8 +73,6 @@ void Graph::Generate(int degree){
 
 					node.destination = k;
 					AdjList[v].push_back(node);//store edge for node v
-
-					E++; //maintain edge count
 				}
 			}
 		}
@@ -107,6 +101,7 @@ void Graph::GenerateTest(char* filename){
 	file.open(filename);
 	kedge knode;
 	edge node;
+	int E;
 
 	if(file){
 		file>>E;
@@ -134,7 +129,7 @@ void Graph::GenerateTest(char* filename){
 
 void Graph::Print(char* filename){
 	ofstream output(filename);
-	output<<E<<endl;
+	output<<EdgeList.size()<<endl;
 	for(int i = 0; i < EdgeList.size(); i++){
 		output<<EdgeList[i].u<<" "<<EdgeList[i].v<<" "<<EdgeList[i].weight<<endl;
 	}

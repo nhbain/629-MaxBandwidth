@@ -366,7 +366,7 @@ void kruskal(Graph *g, int s, int t){
 
 	vector<kedge> solution;
 
-	for(int j = 0; j < g->E; j++){
+	for(int j = 0; j < g->EdgeList.size(); j++){
 		int u = sorted[j].u;
 		int v = sorted[j].v;
 		int r1 = kfind(parent, u);
