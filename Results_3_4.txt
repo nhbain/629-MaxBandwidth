@@ -1,0 +1,41 @@
+-----------------------Graphs 3 and 4 Timing Results----------------------------
+Source: 816, Target: 4992
+Sparse Dijkstra Timing: 273331
+Sparse Dijkstra With Heap Timing: 307192
+Sparse Kruskal Timing: 96028.9
+Dense Dijstra Timing: 1.13854e+07
+Dense Dijkstra With Heap Timing: 1.1542e+07
+Dense Kruskal Timing: 1.1179e+07
+-----------------------Timing Results----------------------------
+Source: 3550, Target: 3743
+Sparse Dijkstra Timing: 222170
+Sparse Dijkstra With Heap Timing: 256195
+Sparse Kruskal Timing: 65631
+Dense Dijstra Timing: 7.13844e+06
+Dense Dijkstra With Heap Timing: 7.29079e+06
+Dense Kruskal Timing: 6.91978e+06
+-----------------------Timing Results----------------------------
+Source: 2637, Target: 2070
+Sparse Dijkstra Timing: 244685
+Sparse Dijkstra With Heap Timing: 282845
+Sparse Kruskal Timing: 66254
+Dense Dijstra Timing: 7.15801e+06
+Dense Dijkstra With Heap Timing: 7.30636e+06
+Dense Kruskal Timing: 6.93755e+06
+-----------------------Timing Results----------------------------
+Source: 3654, Target: 201
+Sparse Dijkstra Timing: 233818
+Sparse Dijkstra With Heap Timing: 267446
+Sparse Kruskal Timing: 70283
+Dense Dijstra Timing: 6.95403e+06
+Dense Dijkstra With Heap Timing: 7.10528e+06
+Dense Kruskal Timing: 6.77792e+06
+-----------------------Timing Results----------------------------
+Source: 2987, Target: 2638
+Sparse Dijkstra Timing: 246049
+Sparse Dijkstra With Heap Timing: 280191
+Sparse Kruskal Timing: 67708
+Dense Dijstra Timing: 7.17246e+06
+Dense Dijkstra With Heap Timing: 7.32342e+06
+Dense Kruskal Timing: 6.95459e+06
+-----------------------Timing Results----------------------------
