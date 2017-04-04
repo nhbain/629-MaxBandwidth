@@ -198,7 +198,7 @@ void dijkstra(Graph *g, int s, int t){
 		}
 	}
 
-	cout<<"Max bandwidth path from "<<s<<" to "<<t<<" in reverse is:"<<endl;
+	cout<<"Max bandwidth path from "<<s<<" to "<<t<<" is:"<<endl;
 	tempV = t;
 
 	if(parent[tempV] != tempV){
